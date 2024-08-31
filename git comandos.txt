@@ -1,0 +1,74 @@
+git clone
+Clona um repositório em um novo diretório
+
+git  --version
+Exibi informações de versão sobre o Git
+
+git config
+obtenha e defina repositório ou opções globais
+
+git config --global user.name "digite seu nome de usuário aqui"
+
+git config --global user.email "digite seu email aqui"
+
+
+git init
+Cria um repositório Git vazio ou reinicialize um existente
+
+git add
+Adiciona o conteúdo do arquivo ao índice
+
+git add .
+Adiciona todos conteúdos dos arquivos aos índices
+
+git add *
+?
+
+git status
+Mostra o status da árvore de trabalho
+
+
+git reset
+Redefini o HEAD atual para o estado especificado
+
+git reset --hard
+volta ao commit de antes 
+
+
+git commit -m
+Registra alterações no repositório
+
+git branch -M
+Lista, cria ou exclui branchs = ramificações
+
+git branch -d
+
+git remote
+Gerencia conjunto de repositórios rastreados
+
+git checkout master
+Troqua de ramificação ou restaura arquivos da árvore de trabalho
+
+git checkout -b
+?
+
+git-reflog
+Gerencia informações de reflog
+
+git merge
+Junta duas ou mais histórias de desenvolvimento
+
+git push
+Atualiza referências remotas junto com objetos associados
+
+git push -u origin master
+
+git pull
+Busca e integra com outro repositório ou filial local
+
+git log
+
+git shortlog
+
+gitignore
+Especifica arquivos intencionalmente não rastreados para serem ignorados
