@@ -1,0 +1,28 @@
+git tutorial como criar repositório e mandar para o github
+
+abra o gitbash e digite os comandos abaixo
+
+git init
+// cria a pasta oculta .git
+
+git add README.md
+// adiciona o arquivo README.md para o git
+
+// git status
+// mostra os arquivos no git
+// em vermelho, não adicionado
+// em verde, adicionado
+// pra desfazer digite git reset
+
+git commit -m "Meu primeiro commit"
+// nome do commit isso vai aparecer no github, quando fizer git push
+
+git branch -M main
+// muda o nome da branch master para main
+
+git remote add origin link_do_github
+// adiciona o link do github para mandar os arquivos
+// nota: só faça isso uma vez
+
+git push -u origin main
+// envia tudo para o github na branch main
