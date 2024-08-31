@@ -1,0 +1,7 @@
+renomear commit enviado para o github
+
+git commit --amend -m "Digite aqui novo commit"
+
+
+git push -f
+// envia commit forçado para o github
